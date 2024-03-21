@@ -6,9 +6,9 @@ This deployment is defined in the `docker-compose.yml` file with two Wazuh manag
 ```
 $ sysctl -w vm.max_map_count=262144
 ```
-2) Run the certificate creation script:
+2) Run docker network:
 ```
-$ docker-compose -f generate-indexer-certs.yml run --rm generator
+$ docker network create nginxproxy
 ```
 3) Start the environment with docker-compose:
 
