@@ -206,58 +206,58 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/master-wazuh-integrations
+      device: /root/wazuh-docker/master-wazuh-integrations
   worker-wazuh-integrations:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/worker-wazuh-integrations
+      device: /root/wazuh-docker/worker-wazuh-integrations
   wazuh-indexer-data-1:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-data-1
+      device: /root/wazuh-docker/wazuh-indexer-data-1
   wazuh-indexer-config-1:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-config-1
+      device: /root/wazuh-docker/wazuh-indexer-config-1
   wazuh-indexer-data-2:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-data-2
+      device: /root/wazuh-docker/wazuh-indexer-data-2
   wazuh-indexer-config-2:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-config-2
+      device: /root/wazuh-docker/wazuh-indexer-config-2
   wazuh-indexer-data-3:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-data-3
+      device: /root/wazuh-docker/wazuh-indexer-data-3
   wazuh-indexer-config-3:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-config-3      
+      device: /root/wazuh-docker/wazuh-indexer-config-3      
   wazuh-indexer-snapshots-1:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-indexer-snapshots-1
+      device: /root/wazuh-docker/wazuh-indexer-snapshots-1
   wazuh-dashboard-config:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: /root/wazuh-docker/multi-node/wazuh-dashboard-config
+      device: /root/wazuh-docker/wazuh-dashboard-config
